@@ -129,7 +129,7 @@ def var(default=RAISE, converter=None, name=None, validator=None, help=None):
     :param str name: Overwrite name detection with a string.  If not set, the
         name of the attribute is used.
     :param converter: A callable that is run with the found value and
-        its return value is used.  Please not that it is also run for default
+        its return value is used.  Please note that it is also run for default
         values.
     :param validator: A callable that is run with the final value.
         See ``attrs``'s `chapter on validation
